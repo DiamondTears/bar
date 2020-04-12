@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo</title>
+    <link rel="stylesheet" href="../dist/bar.min.css">
+</head>
+<body>
+   <p>默认样式</p>
+   <div id="bar1"></div>
+   <p>自定义颜色</p>
+   <div id="bar2"></div>
+</body>
+<script src="../dist/bar.min.js"></script>
+<script>
+    const stateArr=["待付款", "已支付", "已完成"];
+    //第一个为你要绑定的容器,第二个为状态数组,第三个为到第几步选中,这三个必须,
+    bar.init(document.getElementById('bar1'),stateArr,2);
+    //最后一个参数可以根据自己的ui风格定义相适应的颜色比如
+    const colors={notCircle: "", notLine: "", yesCircle: "green", yesLine: "green"};
+    bar.init(document.getElementById('bar2'),stateArr,2,colors)
+</script>
+</html>
