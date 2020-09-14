@@ -24,5 +24,6 @@
   "bugs": {
     "url": "https://github.com/DiamondTears/bar/issues"
   },
-  "homepage": "https://github.com/DiamondTears/bar#readme"
+  "homepage": "https://github.com/DiamondTears/bar#readme",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
