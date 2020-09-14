@@ -1,0 +1,29 @@
+{
+  "name": "bar.js",
+  "version": "1.0.0",
+  "description": "一个移动端的纯javascript的 进度步骤插件",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp-clean-css": "^4.3.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-uglify": "^3.0.2"
+  },
+  "devDependencies": {
+    "del": "^5.1.0",
+    "gulp": "^4.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiamondTears/bar.git"
+  },
+  "author": "DiamondTears",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DiamondTears/bar/issues"
+  },
+  "homepage": "https://github.com/DiamondTears/bar#readme",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+}
